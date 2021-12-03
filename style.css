@@ -1,0 +1,275 @@
+
+/*     impoart font from pc     */
+@font-face {
+    font-family: EXPO;
+    src: url(Expo\ Arabic\ Bold.ttf);
+   
+  }
+
+*{
+padding: 0px;
+
+
+
+}
+html {
+    min-height: 100%;
+}
+body{
+   
+
+    background:  linear-gradient(110deg, #f93d66, #6d47d9);
+    /*background: linear-gradient(120deg, #F43D6B 5%, #8146C7);  
+   */
+}
+
+button{
+  float: right;
+    font-size: 15px;
+background-color:#FFC500 ;
+border: 0px;
+height: 50px;
+width: 294px;
+cursor: pointer;
+font-weight: bold;
+margin: 3px;
+margin-top: 10px;
+
+
+}
+button:hover {
+    font-size: 25px;
+    border: 1px,solid,black;
+    background-color: #282828;
+    color:#FFC500 ;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+.imgtext{
+
+width: 150px;
+    background: #ffc600;
+    padding: 5px;
+
+}
+.imageandtext{
+   float: left;
+    min-height: 400px;
+    width: 900px;
+    background: white url(image/man-with-shawrma.png);
+    background-size: cover;
+    background-position: bottom left;
+    padding: 40px;
+    display: grid;
+    align-content: center;
+margin-top: 40px;
+margin-left: 10px;
+  }
+.yellowsq1{
+    float: right;
+    text-align: center;
+background-color:#ffc600 ;
+width: 500px;
+height: 230px;
+margin:5px;
+ display: grid;
+align-content: center;
+margin-top: 40px;
+
+}
+.yellowsq2{
+    float: right;
+    text-align: center;
+background-color:#ffc600 ;
+width: 500px;
+height: 225px;
+margin:5px 5px 0px 5px;
+ display: grid;
+align-content: center;
+margin-top: 20px;
+}
+
+.price {
+    font-weight: 200;
+    font-size: 50px;
+    font-family: cursive;
+    
+  }
+h1 + p{
+    font-size: 20px;
+margin-top: -50px;
+color: rgb(22, 22, 22);
+
+font-family: EXPO;
+}
+  span > p{
+margin-top: -0;
+color: rgb(22, 22, 22);
+  }/*
+  .types{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    grid-gap: 20px;
+
+    margin: 10px;
+
+   
+ 
+      
+  }
+
+  .type{
+
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1)
+
+  }
+*/
+.type:hover{
+  
+  
+    background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  .type p {
+    color: rgba(0, 0, 0, 0.651);
+  
+  }
+  .type{
+    /*padding h3*/
+    padding: 25px;
+    box-sizing: border-box;
+     /**/
+width: 364px;
+height: 180px;
+margin: 40px 00px 20px 10px;
+    float: left;
+    background-color: white;
+    text-align: center;
+   
+  }
+ 
+  
+  .type p {
+    font-weight: bold;
+    
+    
+  }
+  .icon {
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+    
+    
+  }
+  .title{
+margin-top: 0;
+  }
+  .type h3 {
+    font-weight: 300;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+  }/*
+.featuredshawrma{
+  float:left;
+  background-color: white;
+width: 99%;
+  align-items: left;
+justify-items: left;
+text-align: left;
+
+margin: 10px;
+}
+
+
+.featuredshawrma button {
+  margin-bottom: 50px;
+  margin-right: 575px;
+  width: 180px;
+  height: 50px;
+}
+ 
+  
+   
+  .shawermaimg{
+    margin: 50px 0px 0px 50px;
+  }
+  .content >p,h2{
+
+margin: 10px 0px 0px 400px;
+  }
+ */
+ .featuredshawrma {
+  margin: 40px 10px 20px 10px;
+   width: 99%;
+   height: 500px;
+background-color: white; 
+ float: left;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  
+}
+.featuredshawrma img {
+  width: 400px;
+  align-content: flex-start;
+  margin-top: 50px;
+  margin-left: -800px;
+  
+  
+}
+.content h2 {
+  font-weight: 300;
+  font-size: 30px;
+margin-right: 42px;
+  margin-top: -200px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.content p {
+  font-weight: 200;
+  margin-right: 100px;
+}
+.featuredshawrma button {
+  margin-bottom: 50px;
+  margin-right: 745px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+}
+.featuredshawrma:hover{
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  
+}
+.images>img{
+
+  margin: 10px 10px 20px 10px;
+  width: 277px;
+height: 250px;
+}
+.imagesection{
+
+  display: grid;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+.images>img:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 278px;
+height: 251px;
+}
